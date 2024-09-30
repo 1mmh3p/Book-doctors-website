@@ -98,23 +98,24 @@
                     <h3>Patient Register <a href="doctor-register.html">Are you a Doctor?</a></h3>
                   </div>
 
-                  <form action="index.html">
+                  <form action="" method="POST">
+                  
                     <div class="form-group form-focus">
-                      <input type="text" class="form-control floating">
+                      <input type="text" class="form-control floatin" name="name" require>
                       <label class="focus-label">Name</label>
                     </div>
                     <div class="form-group form-focus">
-                      <input type="text" class="form-control floating">
+                      <input type="text" class="form-control floating" name="mobile" require>
                       <label class="focus-label">Mobile Number</label>
                     </div>
                     <div class="form-group form-focus">
-                      <input type="email" class="form-control floating">
+                      <input type="email" class="form-control floating" name="email" require>
                       <label class="focus-label">Your Email Address</label>
                     </div>
                     <div class="text-end">
                       <a class="forgot-link" href="login.html">Already have an account?</a>
                     </div>
-                    <button class="btn btn-primary w-100 btn-lg login-btn" type="submit">Signup</button>
+                    <button class="btn btn-primary w-100 btn-lg login-btn" type="submit" name="submit">Signup</button>
                     <div class="login-or">
                       <span class="or-line"></span>
                       <span class="span-or">or</span>
@@ -141,121 +142,120 @@
 
     <footer class="footer">
 
-			<div class="footer-top">
-			  <div class="container-fluid">
-				<div class="row">
-				  <div class="col-lg-3 col-md-6">
-	  
-					<div class="footer-widget footer-about">
-					  <div class="footer-logo">
-						<img src="assets/img/footer-logo.png" alt="logo">
-					  </div>
-					  <div class="footer-about-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						  et dolore magna aliqua. </p>
-						<div class="social-icon">
-						  <ul>
-							<li>
-							  <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
-							</li>
-							<li>
-							  <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
-							</li>
-							<li>
-							  <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-							</li>
-							<li>
-							  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-							</li>
-							<li>
-							  <a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
-							</li>
-						  </ul>
-						</div>
-					  </div>
-					</div>
-	  
-				  </div>
-				  <div class="col-lg-3 col-md-6">
-	  
-					<div class="footer-widget footer-menu">
-					  <h2 class="footer-title">For Patients</h2>
-					  <ul>
-						<li><a href="#">Search for Doctors</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="booking.html">Booking</a></li>
-					  </ul>
-					</div>
-	  
-				  </div>
-				  <div class="col-lg-3 col-md-6">
-	  
-					<div class="footer-widget footer-menu">
-					  <h2 class="footer-title">For Doctors</h2>
-					  <ul>
-						<li><a href="#">Appointments</a></li>
-						<li><a href="#">Chat</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-					  </ul>
-					</div>
-	  
-				  </div>
-				  <div class="col-lg-3 col-md-6">
-	  
-					<div class="footer-widget footer-contact">
-					  <h2 class="footer-title">Contact Us</h2>
-					  <div class="footer-contact-info">
-						<div class="footer-address">
-						  <span><i class="fas fa-map-marker-alt"></i></span>
-						  <p> Hatay<br>Turkye</p>
-						</div>
-						<p>
-						  <i class="fas fa-phone-alt"></i>
-						  05511985713
-						</p>
-						<p class="mb-0">
-						  <i class="fas fa-envelope"></i>
-						  <a href="#">ninalhanin9@gmail.com</a>
-						</p>
-					  </div>
-					</div>
-	  
-				  </div>
-				</div>
-			  </div>
-			</div>
-	  
-	  
-			<div class="footer-bottom">
-			  <div class="container-fluid">
-	  
-				<div class="copyright">
-				  <div class="row">
-					<div class="col-md-6 col-lg-6">
-					  <div class="copyright-text">
-						<p class="mb-0">&copy; 2024 &copy; HANIN NİNAL. All rights reserved.</p>
-					  </div>
-					</div>
-					<div class="col-md-6 col-lg-6">
-	  
-					  <div class="copyright-menu">
-						<ul class="policy-menu">
-						  <li><a href="#">Terms and Conditions</a></li>
-						  <li><a href="#">Policy</a></li>
-						</ul>
-					  </div>
-	  
-					</div>
-				  </div>
-				</div>
-	  
-			  </div>
-			</div>
-	  
-		  </footer>
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
 
+              <div class="footer-widget footer-about">
+                <div class="footer-logo">
+                  <img src="assets/img/footer-logo.png" alt="logo">
+                </div>
+                <div class="footer-about-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+                  <div class="social-icon">
+                    <ul>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+              <div class="footer-widget footer-menu">
+                <h2 class="footer-title">For Patients</h2>
+                <ul>
+                  <li><a href="#">Search for Doctors</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="booking.html">Booking</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+              <div class="footer-widget footer-menu">
+                <h2 class="footer-title">For Doctors</h2>
+                <ul>
+                  <li><a href="#">Appointments</a></li>
+                  <li><a href="#">Chat</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+              <div class="footer-widget footer-contact">
+                <h2 class="footer-title">Contact Us</h2>
+                <div class="footer-contact-info">
+                  <div class="footer-address">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p> Cairo<br> Egypt</p>
+                  </div>
+                  <p>
+                    <i class="fas fa-phone-alt"></i>
+                    01146198234
+                  </p>
+                  <p class="mb-0">
+                    <i class="fas fa-envelope"></i>
+                    <a href="#">[email&#160;protected]</a>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer-bottom">
+        <div class="container-fluid">
+
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 col-lg-6">
+                <div class="copyright-text">
+                  <p class="mb-0">&copy; 2023 &copy; Mustafa El-Huseyyen . All rights reserved.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6">
+
+                <div class="copyright-menu">
+                  <ul class="policy-menu">
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Policy</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
 
   </div>
 
